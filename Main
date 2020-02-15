@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="session.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ccf2cd9492.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> 
+
+<style>
+
+
+body {
+				max-width:1000px;
+				height: auto;
+				
+				text-align: start;
+				
+				font-family: 'Special Elite', cursive;
+				
+				
+				}
+				#wrap{
+								width: 100%;
+								
+								}
+header{
+			position: relative;
+				background-color:#666;
+				
+				height: 100%;
+				
+			
+				
+				}
+				header p{
+								font-size: 10px;
+								color: white;
+								
+								}
+				.name{
+								text-align: center;
+								
+								
+								}
+				.add {
+						
+								padding-top:0;
+								vertical-align: middle;
+								
+								}
+								.city {
+												position: absolute;
+												right: 50%;
+												bottom:-10px;
+												
+												}
+								
+								
+								.num{
+												position: absolute;
+												right:5px;
+												bottom:-10px;
+												}
+												
+												.banner h1{
+															text-align: center;
+																
+																}
+				
+			
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+section {
+				
+				position: relative;
+				}
+				nav{
+								section: absolute;
+								float: left;
+								width: 30%;
+								bottom:-90px;
+								
+								}
+								main{
+												
+												
+												float: right;
+												width: 70%;
+											
+			
+												}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+color:white;}
+
+
+.html {width: 90%; background-color: #ddd;}
+.css {width: 80%; background-color: #666;}
+.js {width: 30%; background-color: #ccc;}
+.php {width: 20%; background-color: #666;}
+ .box {
+ 				
+ 				
+ 				display: flex;
+ 				flex-wrap: wrap;
+ 				height: 150px;
+ 				margin: 1px;
+ 			padding-left: 1px;
+ 				justify-content: space-between;
+ 				
+ 				width: 100%;
+ 			
+ 				border-style: solid;
+ 				
+ 				
+ 				
+ 				}
+ 				.item {
+ 								border-style: solid;
+ 								padding:10 10 10 10;
+ 								width: 90px;
+ 								margin: 10px;
+ 								
+ 								
+ 								}
+ 								footer{
+ 												width: auto;
+ 												background-color:#ddd;
+ 												position: absolute;
+ 												bottom: 10px;
+ 												width:100%;
+ 												margin-right:2px;
+ 												
+ 												
+ 												}
+
+
+</style>
+
+
+</head>
+<body>
+
+    <div data-role="page">
+    <div id="wrap">
+    
+    <div data-role="header">
+    <header>
+    <div class ="name">
+     <h1>Fernando Vergara</h1>
+    </div>
+   <div class="add">
+   <p>4120 Durfee Ave</p>
+   <div class="city"><p>EL Monte Ca 91732</p>
+</div>
+   </div>
+   <div class="num"><p>(626) 437-9698</p></div>
+  
+    </div>
+    </header>
+    <section>
+    
+    
+    <div data-role="main">
+    <main>
+    <div class="banner">
+    <h1>Main Point</h1>
+    <p>Enhance my professional skills where i can be creative and gain knowledge. i have a passion for front end developer an high interest in programming.</p></div>
+    <div class="title"><h1>Lockdown</h1></div>
+    
+     <div class="box">
+    <div class="item">boot-strap</div>
+    <div class="item">flex-box</div>
+    <div class="item">css grid</div>
+    <div class="item">responsive</div>
+    <div class="item">mobile</div>
+    <div class="item">quaries</div>
+   
+    
+    </div>
+    </main>
+
+<nav>
+ <div class="container">
+  <h3>Strong points</h3>
+  <p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+    <p>JS</p>
+<div class="container">
+  <div class="skills js">30%</div>
+</div>
+<p>PHP</p>
+<div class="container">
+  <div class="skills php">20%</div>
+</div>
+
+    </div>
+    
+    
+    </div>
+    </nav>
+   
+   
+    
+    </a></div>
+    </div>
+    </div>
+   
+   </section>
+</body>
+<footer>
+<div data-role="footer">
+<div>github<a href=""></a></div>
+
+    <div>YouTube playlist<a href="https://www.youtube.com/playlist?list=PLDtu4KZzYoret8qhrbM6NXtttc2KfY0sl">
+    <p>https://www.youtube.com/playlist?list=PLDtu4KZzYoret8qhrbM6NXtttc2KfY0sl</p>
+    </div>
+    </footer>
+    
+</html>
